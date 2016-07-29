@@ -1,0 +1,504 @@
+/* line 1, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Vollkorn', serif; }
+
+/* line 12, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.border {
+  margin: 20px auto;
+  padding: 10px 5px;
+  border: 7px solid black;
+  width: 97vw;
+  height: 100%;
+  background: url("../images/tlo_orginal.jpg") no-repeat;
+  background-size: 100% 100%; }
+
+/* line 23, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.border_2 {
+  border: 3px solid black;
+  width: 100%;
+  height: 100%; }
+
+/* line 28, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+section.top.menu {
+  margin: 30px auto 1px;
+  width: 85%;
+  border-top: 4px solid black;
+  display: flex;
+  justify-content: center; }
+  /* line 34, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  section.top.menu img {
+    margin: 10px 0; }
+
+/* line 39, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.top div {
+  margin: 5px 0;
+  padding: 10px 0;
+  width: 100%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+
+/* line 50, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.top ul {
+  width: 100%; }
+  /* line 52, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  .top ul li {
+    list-style-type: none; }
+  /* line 55, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  .top ul a {
+    text-decoration: none;
+    color: black; }
+
+/* line 60, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.section_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  /* line 66, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  .section_name h1 {
+    font-size: 4em;
+    font-weight: 600;
+    margin: 0 40px; }
+
+/* line 72, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+#name {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  width: 85%;
+  height: 100%; }
+
+/* line 80, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.name_line_top {
+  border-top: 1px solid black;
+  border-bottom: 4px solid black;
+  width: 30%;
+  height: 8px; }
+
+/* line 86, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.name_line_middle {
+  border-top: 1px solid black;
+  border-bottom: 4px solid black;
+  margin: 10px 0;
+  width: 60%;
+  height: 8px; }
+
+/* line 93, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.name_line_bottom {
+  border-top: 1px solid black;
+  border-bottom: 4px solid black;
+  width: 100%;
+  height: 8px; }
+
+/* line 99, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.column {
+  margin-bottom: 30px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; }
+
+/* line 107, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.column2 {
+  margin-bottom: 30px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; }
+
+/* line 115, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.work_type {
+  display: flex;
+  width: 85%;
+  margin: 30px 0; }
+  /* line 119, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  .work_type h3 {
+    display: flex;
+    font-size: 3em;
+    margin: 0 40px;
+    font-weight: 400;
+    white-space: nowrap; }
+  /* line 126, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  .work_type div.column {
+    margin: 10px 0;
+    align-self: flex-end; }
+  /* line 130, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  .work_type div.column2 {
+    margin: 10px 0;
+    align-self: flex-end; }
+
+/* line 135, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.header-icons {
+  text-align: center;
+  margin: 2em 0; }
+
+/* line 139, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.header-icons a span {
+  width: 62px;
+  height: 62px;
+  background: url("../images/sc-icon.png") no-repeat 0px 0px;
+  display: inline-block;
+  margin: 0 5px; }
+
+/* line 146, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.header-icons a span.fb {
+  background-position: 0px 0px; }
+
+/* line 149, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.header-icons a span.fb:hover {
+  background-position: 0px -62px; }
+
+/* line 152, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.header-icons a span.tw {
+  background-position: -62px 0px; }
+
+/* line 155, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.header-icons a span.tw:hover {
+  background-position: -62px -62px; }
+
+/* line 158, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.header-icons a span.pin {
+  background-position: -123px 0px; }
+
+/* line 161, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.header-icons a span.pin:hover {
+  background-position: -123px -62px; }
+
+/* line 164, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.header-icons a span.likdin {
+  background-position: -186px 0px; }
+
+/* line 167, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.header-icons a span.likdin:hover {
+  background-position: -186px -62px; }
+
+/* line 170, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.work_title {
+  display: flex;
+  justify-content: center; }
+  /* line 173, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  .work_title h2 {
+    font-size: 2em;
+    margin: 0 40px; }
+
+/* line 178, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.container {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  border-top: 4px solid black; }
+
+/* line 185, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+section.work_title .container {
+  border-top: 4px solid black; }
+
+/* line 188, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+p {
+  font-size: 1.5em;
+  text-align: center; }
+
+/* line 192, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+section.work_img .container {
+  border-top: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 85%;
+  border-bottom: 4px solid black; }
+
+/* line 199, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.work_img {
+  display: flex;
+  justify-content: center; }
+
+/* line 203, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.image_window {
+  display: flex;
+  width: 80%;
+  border: 4px solid black;
+  margin: 5px; }
+
+/* line 209, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+#slider {
+  width: 100%; }
+  /* line 211, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  #slider li {
+    width: 100%;
+    height: 400px; }
+    /* line 214, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+    #slider li img {
+      width: 100%;
+      height: 100%; }
+
+/* line 255, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+section.O_mnie {
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+  /* line 259, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  section.O_mnie .container {
+    border-top: none; }
+  /* line 262, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  section.O_mnie h2 {
+    font-size: 2em;
+    margin: 0 40px;
+    white-space: nowrap; }
+  /* line 267, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  section.O_mnie div.O_mnie_img {
+    width: 45%; }
+  /* line 270, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  section.O_mnie img {
+    width: 100%;
+    padding: 3px;
+    border: 4px solid black; }
+  /* line 275, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  section.O_mnie .O_mnie_text {
+    width: 54%;
+    text-align: center; }
+  /* line 279, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  section.O_mnie p {
+    text-align: center; }
+
+/* line 283, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+div#mini_menu {
+  border: none;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-content: center; }
+  /* line 290, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  div#mini_menu span {
+    border: 6px solid black;
+    width: 80%;
+    height: 2px; }
+
+/* line 296, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+section.progress {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  /* line 301, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  section.progress h2 {
+    font-size: 2em;
+    margin: 0 40px; }
+
+/* line 306, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.progress-bar {
+  background-color: white;
+  min-height: 25px;
+  padding: 5px;
+  width: 350px;
+  margin: 70px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center; }
+
+/* line 317, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.progress-bar span {
+  display: inline-block;
+  height: 100%;
+  width: 0;
+  border-radius: 3px;
+  white-space: nowrap;
+  background-color: black;
+  color: white;
+  letter-spacing: 2px;
+  word-spacing: 20px;
+  text-align: center; }
+
+/* line 329, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.span_width {
+  width: 100%; }
+
+/* line 332, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.button_progress {
+  padding: 5px;
+  border: 4px solid black;
+  margin: 15px 0;
+  border-radius: 5px; }
+  /* line 337, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  .button_progress input:hover {
+    background-color: none;
+    cursor: pointer;
+    transition: background-color 1s ease,color 1s ease;
+    -webkit-transition: background-color 1s ease,color 1s ease;
+    -moz-transition: background-color 1s ease,color 1s ease;
+    background-color: black;
+    color: white; }
+  /* line 346, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  .button_progress input {
+    font-size: 1.5em;
+    background: none; }
+
+/* line 351, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+section.kontakt {
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+  /* line 355, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  section.kontakt h2 {
+    font-size: 2em;
+    margin: 0 40px; }
+
+/* line 360, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.input_border {
+  border: 4px solid black;
+  padding: 5px;
+  margin: 15px 0; }
+
+/* line 365, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+input {
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+  padding: 20px 80px;
+  text-align: center; }
+
+/* line 372, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+textarea {
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+  padding: 40px 80px;
+  resize: none;
+  text-align: center; }
+
+/* line 380, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+section.footer {
+  display: flex;
+  justify-content: center; }
+  /* line 383, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  section.footer .container {
+    margin: 10px 0;
+    border-top: 1px solid black;
+    display: block; }
+
+/* line 389, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.button_send {
+  padding: 5px;
+  border: 4px solid black;
+  margin: 15px 0; }
+  /* line 393, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  .button_send input:hover {
+    background-color: none;
+    cursor: pointer;
+    transition: background-color 1s ease,color 1s ease;
+    -webkit-transition: background-color 1s ease,color 1s ease;
+    -moz-transition: background-color 1s ease,color 1s ease;
+    background-color: black;
+    color: white; }
+  /* line 402, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  .button_send input {
+    font-size: 1.5em;
+    background: none; }
+
+/* line 408, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+#toTop {
+  display: flex;
+  position: fixed;
+  bottom: 10px;
+  right: 25px;
+  width: 47px;
+  height: 47px;
+  background: url(../images/top-arrow.png) no-repeat; }
+
+/* line 418, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+section.top a:hover {
+  transition: font-size 1s ease;
+  font-size: 1.5em; }
+
+/* line 422, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+section.top img:hover {
+  animation: 2s palec ease;
+  cursor: pointer; }
+
+@keyframes palec {
+  0% {
+    transform: rotate(0deg); }
+  33% {
+    transform: rotate(-45deg); }
+  66% {
+    transform: rotate(45deg); }
+  100% {
+    transform: rotate(0deg); } }
+
+/* line 447, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+.sticky {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 500;
+  background-color: rgba(0, 0, 0, 0.4); }
+
+/* line 455, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+ul.sticky_menu.sticky {
+  width: 96%;
+  left: 2%;
+  border: 4px solid black; }
+
+/* line 463, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+section.top ul div#mini_menu {
+  display: none; }
+  @media (max-width: 640px) {
+    /* line 463, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+    section.top ul div#mini_menu {
+      display: flex; } }
+
+@media (max-width: 640px) {
+  /* line 469, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  section.top ul li {
+    display: none; } }
+
+@media (min-width: 650px) {
+  /* line 469, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  section.top ul li {
+    display: flex; } }
+
+@media (max-width: 640px) {
+  /* line 479, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  .top div {
+    flex-direction: column; } }
+
+@media (max-width: 640px) {
+  /* line 483, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  .top div li {
+    margin: 20px; } }
+
+@media (max-width: 640px) {
+  /* line 490, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  #name {
+    flex-wrap: wrap; } }
+
+@media (max-width: 510px) {
+  /* line 495, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  #name h1 {
+    font-size: 2em; } }
+
+@media (max-width: 640px) {
+  /* line 500, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  .work_type {
+    flex-wrap: wrap; } }
+
+@media (max-width: 640px) {
+  /* line 505, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  .work_type h3 {
+    font-size: 2em;
+    display: block;
+    white-space: normal; } }
+
+@media (max-width: 510px) {
+  /* line 520, C:/Users/Konrad/Desktop/Koniec/scss/style.scss */
+  #name h1 {
+    font-size: 2em; } }
